@@ -12,8 +12,8 @@ class AddBuilding extends React.Component {
                     this.refs.code.value = ''
                     this.refs.name.value = ''
                     this.refs.address.value =''
-                    this.refs.latitude.value = 0
-                    this.refs.longitude.value = 0
+                    this.refs.latitude.value = ''
+                    this.refs.longitude.value = ''
                 }}>
                     <input type="text" ref = "code" placeholder = "Building Code"></input><br/>
                     <input type="text" ref = "name" placeholder = "Building Name"></input><br/>
